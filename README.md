@@ -11,7 +11,7 @@ An injected service into your Vue Component for showing Modal Dialogs with ease
 
 ## Installation
 ```
-npm install @dotnetbrightener/vue-datatable-component
+npm install @dotnetbrightener/vue-modal-dialog-service
 ```
 
 ## Project setup
