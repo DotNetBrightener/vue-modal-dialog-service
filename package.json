@@ -1,6 +1,6 @@
 {
   "name": "@dotnetbrightener/vue-modal-dialog-service",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
   "description": "An injected service into your Vue Component for showing Modal Dialogs with ease",
   "author": "DotNet Brightener <dotnetbrightener@gmail.com>",

@@ -1,18 +1,13 @@
-# vue-datatable-component
+# vue-modal-dialog-service
 
-A lightweight component for rendering data tables for VueJS aapplications.
+An injected service into your Vue Component for showing Modal Dialogs with ease
 
-[![GitHub open issues](https://img.shields.io/github/issues/dotnetbrightener/vue-data-table-component.svg)](https://github.com/dotnetbrightener/vue-data-table-component/issues)
-![GitHub](https://img.shields.io/github/license/dotnetbrightener/vue-data-table-component.svg)
+[![GitHub open issues](https://img.shields.io/github/issues/dotnetbrightener/vue-modal-dialog-service.svg)](https://github.com/dotnetbrightener/vue-modal-dialog-service/issues)
+![GitHub](https://img.shields.io/github/license/dotnetbrightener/vue-modal-dialog-service.svg)
 
 
 ## Features
 
-[x] Provide a Pagination component
-
-[x] Provide a PageSize component
-
-[x] Make use of SortableJS (https://sortablejs.github.io/Vue.Draggable) to provide column ordering
 
 ## Installation
 ```
