@@ -1,5 +1,5 @@
 <template>
-    <div class="modal-content dnb-confirm-dialog">
+    <div class="modal-content">
         <div class="modal-header" v-if="!!title">
         <h5 class="modal-title">
             Your 'title' props will display here {{ title }}
