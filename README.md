@@ -4,6 +4,7 @@ An injected service into your Vue Component for showing Modal Dialogs with ease
 
 [![GitHub open issues](https://img.shields.io/github/issues/dotnetbrightener/vue-modal-dialog-service.svg)](https://github.com/dotnetbrightener/vue-modal-dialog-service/issues)
 ![GitHub](https://img.shields.io/github/license/dotnetbrightener/vue-modal-dialog-service.svg)
+[![Npm version](https://img.shields.io/npm/v/@dotnetbrightener/vue-modal-dialog-service.svg)](https://www.npmjs.com/package/@dotnetbrightener/vue-modal-dialog-service)
 
 
 ## Features
