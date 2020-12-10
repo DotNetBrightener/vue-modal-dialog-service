@@ -1,0 +1,91 @@
+{
+  "name": "@dotnetbrightener/vue-modal-dialog-service",
+  "version": "1.0.0",
+  "private": false,
+  "description": "An injected service into your Vue Component for showing Modal Dialogs with ease",
+  "author": "DotNet Brightener <dotnetbrightener@gmail.com>",
+  "scripts": {
+    "serve": "vue-cli-service serve ./example/main.js --open",
+    "build": "vue-cli-service build --name vueModalDialogService --entry ./src/index.js --target lib",
+    "lint": "vue-cli-service lint",
+    "prepublishOnly": "npm run lint && npm run build",
+    "test": "vue-cli-service test:unit"
+  },
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.8.0",
+    "@vue/cli-plugin-eslint": "^3.8.0",
+    "@vue/cli-plugin-unit-jest": "^3.8.0",
+    "@vue/cli-service": "^3.8.0",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "@vue/test-utils": "^1.0.0-beta.29",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^23.6.0",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.2.2",
+    "lodash": "^4.17.20",
+    "sass-loader": "^10.1.0",
+    "vue": "^2.6.12",
+    "vue-jest": "^3.0.4",
+    "vue-simple-spinner": "^1.2.8",
+    "vue-template-compiler": "^2.6.12"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "@vue/standard"
+    ],
+    "rules": {
+      "space-before-blocks": "off",
+      "quotes": "off",
+      "no-extra-semi": "off",
+      "semi": "off",
+      "space-infix-ops": "off"
+    },
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "bugs": {
+    "url": "https://github.com/dotnetbrightener/vue-modal-dialog-service/issues"
+  },
+  "homepage": "https://github.com/dotnetbrightener/vue-modal-dialog-service#readme",
+  "keywords": [
+    "vue",
+    "datatable",
+    "component"
+  ],
+  "license": "MIT",
+  "main": "dist/vueModalDialogService.umd.min.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dotnetbrightener/vue-modal-dialog-service.git"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.vue$": "vue-jest",
+      "^.+\\.js?$": "babel-jest"
+    },
+    "moduleNameMapper": {
+      "^@/(.*)$": "<rootDir>/src/$1",
+      "^\\$/(.*)$": "<rootDir>/tests/$1"
+    }
+  }
+}
